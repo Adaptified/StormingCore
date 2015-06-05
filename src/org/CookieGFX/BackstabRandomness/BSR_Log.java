@@ -20,7 +20,7 @@ public class BSR_Log
     
     private static void log(Level level, String message, boolean raw)
     {
-        logger.log(level, (raw ? "" : "[StormingCore]: ") + message);
+        logger.log(level, (raw ? "" : "[StormingMC]: ") + message);
     }
 
 
