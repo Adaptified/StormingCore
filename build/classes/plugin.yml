@@ -1,0 +1,34 @@
+name: BackstabRandomness
+main: org.CookieGFX.BackstabRandomness.BackstabRandomness
+version: 4.3
+authors: [CookieGFX]
+commands:
+    backstabrandom:
+        description: Just makes all the other commands run
+        usage: /<command>
+    changetabname:
+        description: Change your tab name!
+        usage: /<command> <newname | default>
+    pluginrl:
+        description: Reload the plugin!
+        usage: /<command> 
+    gcmd:
+        description: Make a player run a command
+        usage: /<command> <player> <cmd>
+    sc:
+        description: Talk in staff chat!
+        usage: /<command> <message>
+    rawsay:
+        description: Say a raw message.
+        usage: /<command> <message>
+    nv:
+        description: Toggle nightvision!
+        usage: /<command> <on | off>
+    machat:
+        description: Make a player say something!
+        usage: /<command> <player> <message>
+    ban:
+        description: Ban a player.
+        usage: /<command> <player> <reason>
+
+    
