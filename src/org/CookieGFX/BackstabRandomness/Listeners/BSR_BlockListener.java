@@ -24,7 +24,7 @@ public class BSR_BlockListener implements Listener {
         Player player = event.getPlayer();
         switch (event.getBlockPlaced().getType()) {
             case BEDROCK: {
-                if (!(player.hasPermission("backstabrandom.block.bedrock"))) {
+                if (!(player.hasPermission("stormingnetwork.block.bedrock"))) {
                 player.sendMessage(ChatColor.DARK_RED + "You do not have permission for bedrock!");
                 event.setCancelled(true);
                 }
@@ -33,7 +33,7 @@ public class BSR_BlockListener implements Listener {
         
         switch (event.getBlockPlaced().getType()) {
             case SOUL_SAND: {
-                if (!(player.hasPermission("backstabrandom.block.soulsand"))) {
+                if (!(player.hasPermission("stormingnetwork.block.soulsand"))) {
                 player.sendMessage(ChatColor.DARK_RED + "You do not have permission for soul sand!");
                 event.setCancelled(true);
                 }
